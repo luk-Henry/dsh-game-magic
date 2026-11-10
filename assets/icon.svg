@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Magic Shop">
+  <rect x="0" y="0" width="64" height="64" rx="14" fill="#182130"/>
+  <path d="M41.76 11.03A12 12 0 1 0 47.73 32.93A11.5 11.5 0 0 1 41.76 11.03Z" fill="#e0b45c"/>
+  <path d="M19 37L20.8 42.2L26 44L20.8 45.8L19 51L17.2 45.8L12 44L17.2 42.2Z" fill="#e0b45c"/>
+</svg>

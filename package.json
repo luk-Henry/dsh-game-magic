@@ -1,0 +1,88 @@
+{
+  "name": "dsh-game-magic",
+  "version": "0.1.0",
+  "description": "中世纪背景的魔法商店挂机小游戏：店主自己挣钱，慢慢升级店铺、解锁货品与客人。",
+  "icon": "assets/icon.svg",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "assets/",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "idle",
+    "incremental",
+    "pixel",
+    "magic-shop",
+    "idle-game",
+    "挂机",
+    "经营",
+    "小游戏",
+    "桌面小部件"
+  ],
+  "author": "dsh-game-magic contributors",
+  "license": "BSD-3-Clause",
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.1-rc.2 <0.4.0-0"
+  },
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.2.1-rc.2 <0.4.0-0"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    },
+    "compatibility": {
+      "dsh": ">=0.2.1-rc.2 <0.4.0-0",
+      "node": ">=20"
+    },
+    "manifestVersion": 1
+  },
+  "dshhub": {
+    "schemaVersion": 1,
+    "displayName": "魔法商店",
+    "summary": "挂在侧边的中世纪魔法商店挂机小游戏：自己挣钱、装修店铺、招待客人，第七天开启传承。",
+    "categories": [
+      "小游戏",
+      "Web UI"
+    ],
+    "surfaces": [
+      "host",
+      "web"
+    ],
+    "capabilities": {
+      "provides": []
+    },
+    "compatibility": {
+      "dsh": ">=0.2.1-rc.2 <0.4.0-0",
+      "node": ">=20"
+    },
+    "permissions": {
+      "network": []
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luk-Henry/dsh-game-magic.git"
+  }
+}

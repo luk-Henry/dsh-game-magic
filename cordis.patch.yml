@@ -1,0 +1,4 @@
+# bundle patch: 把右下角的「冒险魔法商店」挂机卡片插进 web profile 名册。
+- insert:
+    - id: magic-shop
+      name: dsh-game-magic
