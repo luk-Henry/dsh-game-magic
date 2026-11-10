@@ -1,0 +1,11 @@
+node_modules/
+dev/
+test/
+docs/
+shots/
+HANDOVER.md
+*.bak.js
+*.log
+*.tgz
+.DS_Store
+Thumbs.db
